@@ -1,0 +1,51 @@
+
+/* ========= Mr Chicken - Professional Overrides ========= */
+:root{
+  --brand-red:#D62828;
+  --brand-bg:#0B0B0C;
+  --brand-text:#FFFFFF;
+  --surface:#121316;
+  --card:#1A1C20;
+  --muted:#9BA3AE;
+  --radius:16px;
+  --shadow:0 8px 30px rgba(0,0,0,.25);
+}
+
+/* Global polish */
+html{scroll-behavior:smooth}
+body{background:var(--brand-bg); color:var(--brand-text); -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility}
+
+/* Header / Navbar */
+nav{position:sticky; top:0; z-index:1000; background:rgba(11,11,12,.8); backdrop-filter:saturate(140%) blur(8px); border-bottom:1px solid rgba(255,255,255,.06)}
+.nav-inner{display:flex; align-items:center; justify-content:space-between; gap:1rem; padding-block:0.6rem}
+
+/* Official brand lockup */
+.brand-mark{display:flex; flex-direction:column; line-height:1; text-decoration:none; align-items:flex-start}
+.brand-mr{font-family:'Baloo 2', system-ui, -apple-system; font-weight:800; font-size:1.1rem; color:var(--brand-red); margin-bottom:0.1rem}
+.brand-chicken{font-family:'Baloo 2', system-ui, -apple-system; font-weight:800; font-size:1.7rem; color:#fff; letter-spacing:.2px}
+.brand-slogan{font-family:system-ui, -apple-system, 'Poppins', Arial, sans-serif; font-weight:500; font-size:.65rem; margin-top:.15rem; color:#fff; opacity:.85}
+
+/* Menu links */
+.menu a{color:#E8EDF4}
+.menu a:hover,.menu a.active{color:#fff}
+.menu .cta{background:var(--brand-red); color:#fff; border-radius:999px; padding:.6rem 1rem; box-shadow:var(--shadow)}
+.menu .cta:hover{transform:translateY(-1px)}
+
+/* Hero / sections */
+section{scroll-margin-top:80px}
+.container{max-width:1140px}
+
+/* Cards */
+.card, .menu-card{background:var(--card)!important; border:1px solid rgba(255,255,255,.06)!important; border-radius:var(--radius)!important; box-shadow:var(--shadow)}
+.menu-card img{border-radius:calc(var(--radius) - 6px)}
+.menu-card .price{font-weight:700}
+
+/* Buttons */
+button, .btn{border-radius:12px; padding:.7rem 1rem; border:1px solid rgba(255,255,255,.12); background:#22252B; color:#fff}
+button:hover, .btn:hover{border-color:rgba(255,255,255,.3)}
+
+/* Footer */
+footer{background:#0E0F11; border-top:1px solid rgba(255,255,255,.06)}
+
+/* Accessibility */
+:focus-visible{outline:2px solid var(--brand-red); outline-offset:2px}

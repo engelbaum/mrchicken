@@ -1,0 +1,38 @@
+{
+  "fr": {
+    "nav.home": "Accueil",
+    "nav.menu": "Menu",
+    "nav.chef": "Notre Chef",
+    "nav.gallery": "Galerie",
+    "nav.contact": "Contact",
+    "nav.book": "Réserver",
+    "promo.badge": "Nouveau",
+    "promo.title": "Mr Chicken, c’est meilleur en vrai",
+    "promo.subtitle": "Poulet croustillant, sauces maison, service rapide.",
+    "footer.rights": "Tous droits réservés"
+  },
+  "nl": {
+    "nav.home": "Accueil",
+    "nav.menu": "Menu",
+    "nav.chef": "Notre Chef",
+    "nav.gallery": "Galerie",
+    "nav.contact": "Contact",
+    "nav.book": "Réserver",
+    "promo.badge": "Nouveau",
+    "promo.title": "Mr Chicken, c’est meilleur en vrai",
+    "promo.subtitle": "Poulet croustillant, sauces maison, service rapide.",
+    "footer.rights": "Tous droits réservés"
+  },
+  "en": {
+    "nav.home": "Accueil",
+    "nav.menu": "Menu",
+    "nav.chef": "Notre Chef",
+    "nav.gallery": "Galerie",
+    "nav.contact": "Contact",
+    "nav.book": "Réserver",
+    "promo.badge": "Nouveau",
+    "promo.title": "Mr Chicken, c’est meilleur en vrai",
+    "promo.subtitle": "Poulet croustillant, sauces maison, service rapide.",
+    "footer.rights": "Tous droits réservés"
+  }
+}
