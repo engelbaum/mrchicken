@@ -21,14 +21,14 @@ document.getElementById('year').textContent = new Date().getFullYear();
 // --- Données produits ---
 const PRODUCTS = [
 
-  {id:2,cat:"Menus",name:"Menu Gourmand 🏷️ 3",desc:"5 pièces de poulet + 10 wings +10 tenders + 4 frites + 1,5L",price:"27,90",img:"images/3.png",tag:"menu"},
+  {id:2,cat:"Menus",name:"Menu Gourmand 🏷️ 3",desc:"5 pièces de poulet + 10 wings + 10 tenders + 4 frites + 1,5L",price:"27,90",img:"images/3.png",tag:"menu"},
   {id:3,cat:"Menus",name:"Menu Big Family  🏷️ 5A",desc:"45 Hot Wings + 4 frites + 1,5L",price:"23,90",img:"images/5A.png",tag:"family"},
-  {id:4,cat:"Menus",name:"Menu Trio Box 🏷️ 6A ",desc:"30 Hot Wings + 3 frites + 1,5L",price:"18,90",img:"images/triobox6AA.png",tag:"box"},
-  {id:5,cat:"Menus",name:"Menu Chicken Mixte (XL) 🏷️ 4",desc:"10 pièces poulet + 10 wings + 4 frites + 1,5L",price:"22,90",img:"images/4.png",tag:"menu"},
-  {id:6,cat:"Menus",name:"Menu Big Family 🏷️ 5B",desc:"15 pièces de poulet + 4 frites + 1,5L",price:"22,90",img:"images/5B.png",tag:"family"},
+  {id:4,cat:"Menus",name:"Menu Trio Box 🏷️ 6A ",desc:"30 Hot Wings + 3 frites + 1,5L",price:"18,90",img:"images/6AA.png",tag:"box"},
+  {id:5,cat:"Menus",name:"Menu Chicken Mixte (XL) 🏷️ 4",desc:"10 pièces de poulet + 10 wings + 4 frites + 1,5L",price:"22,90",img:"images/4.png",tag:"menu"},
+  {id:6,cat:"Menus",name:"Menu Big Family 🏷️ 5B",desc:"15 pièces de poulet + 4 frites + 1,5L",price:"22,90",img:"images/5bbb.png",tag:"family"},
   {id:7,cat:"Menus",name:"Menu Trio Box 🏷️ 6B",desc:"5 pièces de poulet + 15 wings + 3 frites  + 1,5L",price:"18,90",img:"images/6B.png",tag:"box"},
   {id:8,cat:"Menus",name:"Menu Sweet Family 🏷️ 7",desc:"10 pièces de poulet + 3 frites + 1,5L",price:"16,90",img:"images/7.png",tag:"family"},
-    {id:18,cat:"Menus",name:"Menu Tenders XL 🏷️ 14B /🏷️ 14C",desc:"15 tenders + 4 frites + 1,5L",price:"22,90",img:"images/14B.png",tag:"tenders"},
+  {id:18,cat:"Menus",name:"Menu Tenders XL 🏷️ 14B /🏷️ 14C",desc:"15 tenders + 4 frites + 1,5L",price:"22,90",img:"images/14.png",tag:"tenders"},
   {id:1,cat:"Menus",name:"Menu Chicken Mixte 🏷️ 1",desc:"2 pièces de poulet + 3 wings + frites + boisson",price:"7,50",img:"images/1.png",tag:"menu"},
 
   {id:9,cat:"Burgers",name:"Fish Burger 🏷️ 9",desc:"1 Fish Burger + frites + boisson",price:"7,00",img:"images/9.png",tag:"burger"},
